@@ -45,7 +45,7 @@ jobs:
 
       - name: Build the app
 #        working-directory: temp
-        run: ./data/buildscripts/build-windows.sh
+        run: sudo ./data/buildscripts/build-windows.sh
 
       - name: ls + dir
         #working-directory: temp
