@@ -1,0 +1,61 @@
+name: workflow1 + My build action requiring more space
+on: [workflow_dispatch] #[push]
+
+jobs:
+  build:
+    name: Build my artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Maximize build space
+        uses: easimon/maximize-build-space@master
+        with:
+          root-reserve-mb: 512
+          swap-size-mb: 1024
+          remove-dotnet: 'true'
+          remove-haskell: 'true'
+          remove-android: 'true'
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: |
+          echo "Free space:"
+          df -h
+
+#______________________________________________________________________
+
+      - name: Checkout the code/initialize repo for use
+        uses: actions/checkout@v2
+
+#      - name: Open working temp dir
+#        working-directory: temp
+
+      - name: Installing Dependencies
+        run: sudo apt-get install -y git && sudo apt-get install -y rename && sudo apt-get install -y gprename && sudo apt-get install -y libpango1.0-dev && sudo apt-get install -y libpangoxft-1.0-0 && sudo apt-get install -y libpangoft2-1.0-0 && sudo apt-get install -y libfreetype-dev && sudo apt-get install -y libxft-dev && sudo apt-get install -y libgtk2.0-dev && sudo apt-get install -y libx11-dev
+
+      - name: ls + dir
+        #working-directory: temp
+        run: ls -la #ls && dir
+
+      - name: make makefile executable
+        run: sudo chmod +x ./data/buildscripts/build-windows.sh
+
+      - name: fetch git for later checkout/fix it # propably BS
+        run: git fetch && git remote update
+
+      - name: Build the app
+#        working-directory: temp
+        run: ./data/buildscripts/build-windows.sh
+
+      - name: ls + dir
+        #working-directory: temp
+        run: ls -la #ls && dir
+
+      - name: dir tree
+        run: tree
+
+      - name: Upload output
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug_output
+          path: output/
