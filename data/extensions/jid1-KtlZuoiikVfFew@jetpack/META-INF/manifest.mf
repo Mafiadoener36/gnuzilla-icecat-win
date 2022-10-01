@@ -1,0 +1,122 @@
+Manifest-Version: 1.0
+
+Name: bundle.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: kfS6rxCTsJqlIABAaSlNYBhqVyg=
+SHA256-Digest: G4dk5konL8+DuSbsLqcpd6Zc2ALYRuyD/xhW+nszVRE=
+
+Name: manifest.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: yfYBwFqHoCmXUqWmFcGoJJ5pu6I=
+SHA256-Digest: 2KaatpAW4OUZHE3LqwDi47d0YQ1N32sVfoxG14TBeyI=
+
+Name: common/Test.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: NW/C7GoVV05NEaSRbehFcj+u8kI=
+SHA256-Digest: FKUY1ZzZ9Wjmp3i9TTRme4jwv1JrKUHTM8u6z6zjO90=
+
+Name: common/Storage.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 3iw7sqXV1YrhhjAmiJ9mhX86gWs=
+SHA256-Digest: EbTsZj1io4dPJuIsZDq9klk/p1JSOchOKS1cuOV+6QA=
+
+Name: content/overlay.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: HiornR2qULIjaGkBgK9+4mo6zhE=
+SHA256-Digest: QpbfWaEXXtxpCOA7o11c0plSmemhdrEp/AJF8uegrME=
+
+Name: content/externalLicenseChecker.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 7JPFTnU/EfbKRLC6/AEUiGACRkA=
+SHA256-Digest: gqn0deU0/EED+6+t2D69LeRCghlvMPH6RiHQgpleftc=
+
+Name: content/dialog.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: OtHx7b2GxD8MYhJ2WJ6+FESRLt0=
+SHA256-Digest: PmP1jGEKgeLl698KLlhzFHKr1kKuXGjs2fekHWfri40=
+
+Name: content/contactFinder.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 0pS9aGtJeDesXiN1PoDl1t5zcLQ=
+SHA256-Digest: UU7DS2RDzLoty+2DKA2hp350m7oB/anwBa5cIdn6BYA=
+
+Name: html/mobile.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Rlsaps0mwLl0HJwPkcAwP10WUds=
+SHA256-Digest: DjCIuaq2tQRZSL8nZCAZo3XhZyT0H8oNsVoUBwbSK2Q=
+
+Name: html/librejs-title.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 4wV1hpHAYZrwT7thfw9W3ih9nUI=
+SHA256-Digest: kXQZs049GoebbjgWwvRx/lBKFzTvi8J2dKE8PJC3pX0=
+
+Name: html/fastclick.js.LICENSE.txt
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 3NW2tDCV2ekDU6KLCcsmnejUg44=
+SHA256-Digest: WlJkIStdkPCxwO5I5JifqzzUw+tbwt64+8VHemoLD+Q=
+
+Name: html/fastclick.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 8aHH1XH34m7iZq9mLol4ZdleOPg=
+SHA256-Digest: fEdtr0rFy3SBgL/Xnc2wssOUUoFfBx6T05RGg2i0tM8=
+
+Name: html/common.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: VxWUQ31bhir4PZrxeCczHaTFB/Q=
+SHA256-Digest: XtMPewrOTJxncjL2YsgherVtMMFCHAv211GoiErGwgU=
+
+Name: html/background-panel.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: I7A+/TQ6qxT/KL1l28vAX/Hk6Vc=
+SHA256-Digest: 8QXq/xEzAlvUjmlnoLZsSUNRzJVMlXfxvHXg+CjQCeo=
+
+Name: html/README
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: KSboZB1+wr79Fe37Ilvk9wHbFUI=
+SHA256-Digest: woimzHpj0kwEyX4pkh/OEWZg+nZMy//j3FFaxIUUSqE=
+
+Name: html/preferences_panel/prefs.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: pcsCRYBKnwUyTcRWuvjCTuQ/1ow=
+SHA256-Digest: tka3B4VXzE/NnqA5QUSqUWqMGtGsjOyYaqrbB/mISdk=
+
+Name: html/preferences_panel/preferences_panel.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: p4bT3dvEpLwlx+HSbEjaN/m/sWM=
+SHA256-Digest: 5ulelouZj4FWFWe6RKw5CEOOMcrY8M8uc+O5xLM5mTg=
+
+Name: html/preferences_panel/pref.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: EKekJYTJobwbWThLq7pr3+8u3EY=
+SHA256-Digest: i7PL7oBaTDL2TCq/z1C0tshTUqsjSdm0Ko/X3anrZRQ=
+
+Name: html/display_panel/content/panel-styles.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: f2hf4t1D4PAI9c2BbxoBQd9kcko=
+SHA256-Digest: xD1r4fotCgzI4D6L2wvcPgmQYnu2CtmkpH4oVeK6Ci0=
+
+Name: html/display_panel/content/main_panel.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: O82uqXfzRlRx34uSKSjXHmTAMTg=
+SHA256-Digest: EMiM3Q3G7JDvUcfRQk0Vj/Aa3D/hzY1d+GqH9pAsxHQ=
+
+Name: html/display_panel/content/display-panel.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: u8VzSDA0kDQQXfsD6UD158yJolg=
+SHA256-Digest: XvtYXtpNj6tzZFz5HHVk94N6mwvJ+dL0Efpd+bmicWE=
+
+Name: icons/librejs.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Q9vvlNA4dFCgNvsckbkM3AcbqC4=
+SHA256-Digest: iZ50DcoVMy8qEArQPbLCQyuf/vGeVkTS6Ja8K/E1nvU=
+
+Name: META-INF/cose.manifest
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: JkQ6mNTpcKj5WL49pTTemiOVIfU=
+SHA256-Digest: ZfGRtCyTQNLUYzf+dI80KQVUpDTlGF0kiwjKDQh2bAM=
+
+Name: META-INF/cose.sig
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: maGMCOBrVinIXQrNfJ73GpXA5Jc=
+SHA256-Digest: 4HtoUWDsu3irZotYt1PoXHlCtFBWcLVnxoiB/ESBeqU=
+
