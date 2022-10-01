@@ -38,14 +38,14 @@ jobs:
         run: ls -la #ls && dir
 
       - name: make makefile executable
-        run: sudo chmod +x ./data/buildscripts/build-windows.sh
+        run: sudo chmod +x ./build-windows.sh
 
       - name: fetch git for later checkout/fix it # propably BS
         run: git fetch && git remote update
 
       - name: Build the app
 #        working-directory: temp
-        run: sudo ./data/buildscripts/build-windows.sh
+        run: sudo ./build-windows.sh
 
       - name: ls + dir
         #working-directory: temp
